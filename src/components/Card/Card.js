@@ -1,18 +1,15 @@
 import React from 'react';
 
 const Card = props => (
-  <div className="card" onClick={() => props.handleClick(props.name)}>
-    <div className="card-image">
-      <img 
-        src={props.src}
-        alt={props.name}
-      />
+    <div key={props.name} className="card animated flipInY tada" onClick={() => props.handleClick(props.name)}>
+      <div className="card-image">
+        <img 
+          src={props.src}
+          alt={props.name}
+        />
+        <span className="card-title background-dark-blur">{props.title}</span>
+      </div>
     </div>
-    <div className="card-action">
-      <span>Picture Name Here</span>
-      <p>{props.name}</p>
-    </div>
-  </div>
 );
 
 export default Card;

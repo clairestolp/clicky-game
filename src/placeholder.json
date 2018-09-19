@@ -1,62 +1,74 @@
  [
     {
       "id": 0,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat0",
+      "title": "Purr when being pet",
       "clicked": false
     },
     {
       "id": 1,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat1",
+      "title": "Shed everywhere",
       "clicked": false
     },
     {
       "id": 2,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat2",
+      "title": "Chase imaginary bugs",
       "clicked": false
     },
     {
       "id": 3,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat3",
+      "title": "Play with toilette paper",
       "clicked": false
     },
     {
       "id": 4,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat4",
+      "title": "Leave dead animals as gifts",
       "clicked": false
     },
     {
       "id": 5,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat5",
+      "title": "Find a way to fit in tiny box",
       "clicked": false
     },
     {
       "id": 6,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat6",
+      "title": "Pet me pet me don't pet me",
       "clicked": false
     },
     {
       "id": 7,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat7",
+      "title": "Flee in terror at cucumber",
       "clicked": false
     },
     {
       "id": 8,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat8",
+      "title": "Destroy couch as revenge",
       "clicked": false
     },
     {
       "id": 9,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat9",
+      "title": "King grumpy cat",
       "clicked": false
     },
     {
       "id": 10,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat10",
+      "title": "Love you, then bite you",
       "clicked": false
     },
     {
       "id": 11,
-      "url": "https://via.placeholder.com/300x300",
+      "image": "cat11",
+      "title": "Intently stare at the same spot",
       "clicked": false
     }
   ]

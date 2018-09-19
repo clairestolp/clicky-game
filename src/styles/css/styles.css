@@ -6757,3 +6757,20 @@ img {
 
 .bold h1, .bold h2, .bold h3, .bold h4, .bold h5, .bold h6, .bold p {
   font-weight: 3rem; }
+
+.background-dark-blur {
+  position: relative;
+  width: 100%;
+  z-index: 1; }
+
+.background-dark-blur::after {
+  content: '';
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  display: block;
+  height: 100%;
+  width: 100%;
+  fill-opacity: 0.5; }

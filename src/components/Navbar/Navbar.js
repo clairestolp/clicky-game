@@ -6,9 +6,9 @@ const Navbar = props => {
     <nav>
       <div className="nav-wrapper">
         <ul className="flex-distribute-text">
-          <li><h4>Score: </h4></li>
-          <li><h3>Click to begin</h3></li>
-          <li><h4>Best Score: </h4></li>
+          <li><h4>Score: {props.score}</h4></li>
+          <li><h3>{props.message}</h3></li>
+          <li><h4>Best Score: {props.best}</h4></li>
         </ul>
       </div>
     </nav>
