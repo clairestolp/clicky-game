@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Card = props => (
-    <div key={props.name} className="card animated flipInY tada" onClick={() => props.handleClick(props.name)}>
+    <div key={props.name} 
+      className="card animated flipInY tada" 
+      onClick={() => props.handleClick(props.name)}
+    >
       <div className="card-image">
         <img 
           src={props.src}
